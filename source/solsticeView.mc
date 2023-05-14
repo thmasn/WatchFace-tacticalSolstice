@@ -9,7 +9,7 @@ using Toybox.Timer;
 class solsticeView extends WatchUi.WatchFace {
     private var _isAwake as Boolean?;
     
-    private var animationTicks as Number = 0;
+    private var animationTicks as Number = 0; //will be animated fro 1 to 15
     private var animationTimer;
     private var center;
     private var doFullUpdate = false;
@@ -225,7 +225,7 @@ class solsticeView extends WatchUi.WatchFace {
 	        dc.setColor(secondaryColor, 0x000000);
 	        pwidth = clamp(animationTicks,1,5);
 	        dc.setPenWidth(pwidth);
-	        dc.drawArc(center, center, center-pwidth/2, filldirection, Toybox.Graphics.ARC_COUNTER_CLOCKWISE, 360);
+	        dc.drawArc(center, center, center-13, filldirection, Toybox.Graphics.ARC_COUNTER_CLOCKWISE, 360);
         }
         //white main arc
         var sleepHourWidth = 2;
@@ -236,7 +236,8 @@ class solsticeView extends WatchUi.WatchFace {
 	        	pwidth = sleepHourWidth;
 	        }
 	        dc.setPenWidth(pwidth);
-	        dc.drawArc(center, center, center-pwidth/2, filldirection, 90, degrees);
+			var distanceFromOutside = pwidth/2 + (16-animationTicks);
+	        dc.drawArc(center, center, center-distanceFromOutside, filldirection, 90, degrees);
         }
         
         
