@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\thoomas\eclipse-workspace\solstice\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeBackground.mc" id="3" lineNum="8" pc="268435456" symbol="initialize"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeBackground.mc" id="3" lineNum="9" pc="268435460" symbol="initialize"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeBackground.mc" id="3" lineNum="13" pc="268435481" symbol="initialize"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeBackground.mc" id="4" lineNum="16" pc="268435502" symbol="draw"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeBackground.mc" id="4" lineNum="18" pc="268435506" symbol="draw"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeBackground.mc" id="4" lineNum="19" pc="268435555" symbol="draw"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeBackground.mc" id="4" lineNum="6" pc="268440212" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="6" lineNum="17" pc="268435568" symbol="initialize"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="6" lineNum="18" pc="268435572" symbol="initialize"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="7" lineNum="22" pc="268435591" symbol="onLayout"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="8" lineNum="29" pc="268435596" symbol="onShow"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="8" lineNum="30" pc="268435600" symbol="onShow"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="8" lineNum="31" pc="268435610" symbol="onShow"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="8" lineNum="32" pc="268435620" symbol="onShow"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="9" lineNum="36" pc="268435633" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="9" lineNum="41" pc="268435637" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="9" lineNum="42" pc="268435648" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="9" lineNum="44" pc="268435665" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="11" lineNum="74" pc="268435891" symbol="onHide"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="12" lineNum="78" pc="268435896" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="12" lineNum="79" pc="268435900" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="12" lineNum="80" pc="268435910" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="12" lineNum="81" pc="268435920" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="13" lineNum="83" pc="268435933" symbol="startTimer"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="13" lineNum="84" pc="268435937" symbol="startTimer"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="13" lineNum="85" pc="268435950" symbol="startTimer"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="13" lineNum="86" pc="268435984" symbol="startTimer"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="14" lineNum="88" pc="268436026" symbol="timerCallback"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="14" lineNum="89" pc="268436030" symbol="timerCallback"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="14" lineNum="90" pc="268436049" symbol="timerCallback"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="14" lineNum="91" pc="268436061" symbol="timerCallback"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="14" lineNum="92" pc="268436078" symbol="timerCallback"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="15" lineNum="97" pc="268436100" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="15" lineNum="98" pc="268436104" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="15" lineNum="99" pc="268436114" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="15" lineNum="100" pc="268436124" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="15" lineNum="101" pc="268436137" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="16" lineNum="104" pc="268436159" symbol="degreesRotateAndClamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="16" lineNum="105" pc="268436163" symbol="degreesRotateAndClamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="16" lineNum="106" pc="268436173" symbol="degreesRotateAndClamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="16" lineNum="107" pc="268436183" symbol="degreesRotateAndClamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="16" lineNum="108" pc="268436194" symbol="degreesRotateAndClamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="16" lineNum="110" pc="268436207" symbol="degreesRotateAndClamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="16" lineNum="111" pc="268436218" symbol="degreesRotateAndClamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="16" lineNum="113" pc="268436231" symbol="degreesRotateAndClamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="115" pc="268436235" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="117" pc="268436239" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="118" pc="268436287" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="119" pc="268436303" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="120" pc="268436314" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="125" pc="268436327" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="126" pc="268436337" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="127" pc="268436501" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="129" pc="268436514" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="132" pc="268436524" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="135" pc="268436549" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="136" pc="268436556" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="137" pc="268436563" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="138" pc="268436579" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="140" pc="268436595" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="141" pc="268436602" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="142" pc="268436617" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="143" pc="268436636" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="144" pc="268436644" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="147" pc="268436666" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="149" pc="268436685" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="150" pc="268436711" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="154" pc="268436753" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="155" pc="268436764" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="161" pc="268436790" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="162" pc="268436827" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="163" pc="268436838" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="164" pc="268436852" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="165" pc="268436859" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="166" pc="268436866" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="168" pc="268436884" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="169" pc="268436898" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="170" pc="268436918" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="173" pc="268436940" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="174" pc="268436954" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="17" lineNum="176" pc="268436973" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="18" lineNum="184" pc="268437062" symbol="clearTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="18" lineNum="186" pc="268437066" symbol="clearTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="18" lineNum="187" pc="268437088" symbol="clearTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="18" lineNum="188" pc="268437095" symbol="clearTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="18" lineNum="189" pc="268437109" symbol="clearTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="19" lineNum="191" pc="268437152" symbol="clamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="19" lineNum="192" pc="268437156" symbol="clamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="19" lineNum="193" pc="268437164" symbol="clamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="19" lineNum="194" pc="268437170" symbol="clamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="19" lineNum="195" pc="268437178" symbol="clamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="19" lineNum="197" pc="268437184" symbol="clamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="200" pc="268437188" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="202" pc="268437192" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="204" pc="268437199" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="205" pc="268437216" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="206" pc="268437226" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="208" pc="268437236" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="209" pc="268437243" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="210" pc="268437254" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="212" pc="268437264" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="213" pc="268437275" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="216" pc="268437288" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="217" pc="268437304" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="218" pc="268437329" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="224" pc="268437344" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="225" pc="268437355" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="226" pc="268437374" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="227" pc="268437405" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="228" pc="268437419" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="231" pc="268437461" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="232" pc="268437468" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="233" pc="268437493" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="234" pc="268437512" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="235" pc="268437546" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="236" pc="268437558" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="238" pc="268437565" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="239" pc="268437579" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="244" pc="268437618" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="245" pc="268437629" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="246" pc="268437645" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="247" pc="268437676" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="249" pc="268437691" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="251" pc="268437716" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="252" pc="268437735" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="253" pc="268437772" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="254" pc="268437783" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="255" pc="268437797" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="257" pc="268437836" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="258" pc="268437858" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="259" pc="268437883" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="260" pc="268437902" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="266" pc="268437947" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="267" pc="268437958" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="268" pc="268437975" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="269" pc="268437997" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="270" pc="268438001" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="271" pc="268438011" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="272" pc="268438029" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="273" pc="268438060" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="274" pc="268438081" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="275" pc="268438102" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeView.mc" id="20" lineNum="9" pc="268440280" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeApp.mc" id="22" lineNum="7" pc="268438163" symbol="initialize"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeApp.mc" id="22" lineNum="8" pc="268438167" symbol="initialize"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeApp.mc" id="23" lineNum="12" pc="268438186" symbol="onStart"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeApp.mc" id="24" lineNum="16" pc="268438191" symbol="onStop"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeApp.mc" id="25" lineNum="20" pc="268438196" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeApp.mc" id="25" lineNum="21" pc="268438200" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeApp.mc" id="26" lineNum="25" pc="268438238" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeApp.mc" id="26" lineNum="26" pc="268438242" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeApp.mc" id="26" lineNum="5" pc="268440299" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeApp.mc" id="27" lineNum="31" pc="268438259" symbol="getApp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeApp.mc" id="27" lineNum="32" pc="268438271" symbol="getApp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="29" lineNum="9" pc="268438288" symbol="initialize"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="29" lineNum="10" pc="268438292" symbol="initialize"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="29" lineNum="14" pc="268438313" symbol="initialize"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="30" lineNum="17" pc="268438334" symbol="degreesRotateAndClamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="30" lineNum="18" pc="268438338" symbol="degreesRotateAndClamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="30" lineNum="19" pc="268438348" symbol="degreesRotateAndClamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="30" lineNum="20" pc="268438358" symbol="degreesRotateAndClamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="30" lineNum="21" pc="268438369" symbol="degreesRotateAndClamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="30" lineNum="23" pc="268438382" symbol="degreesRotateAndClamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="30" lineNum="24" pc="268438393" symbol="degreesRotateAndClamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="30" lineNum="26" pc="268438406" symbol="degreesRotateAndClamp"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="28" pc="268438410" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="30" pc="268438414" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="31" pc="268438462" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="32" pc="268438478" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="33" pc="268438489" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="38" pc="268438502" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="39" pc="268438512" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="40" pc="268438676" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="42" pc="268438689" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="45" pc="268438699" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="48" pc="268438724" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="49" pc="268438731" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="50" pc="268438738" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="51" pc="268438754" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="53" pc="268438770" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="54" pc="268438777" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="55" pc="268438792" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="56" pc="268438811" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="57" pc="268438819" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="60" pc="268438841" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="62" pc="268438860" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="65" pc="268438899" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="66" pc="268438910" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="72" pc="268438936" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="73" pc="268438953" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="74" pc="268438960" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="75" pc="268438967" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="77" pc="268438985" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="78" pc="268438999" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="81" pc="268439021" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="31" lineNum="83" pc="268439040" symbol="drawMonth"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="32" lineNum="90" pc="268439126" symbol="clearTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="32" lineNum="92" pc="268439130" symbol="clearTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="32" lineNum="93" pc="268439152" symbol="clearTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="32" lineNum="94" pc="268439159" symbol="clearTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="32" lineNum="95" pc="268439173" symbol="clearTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="97" pc="268439216" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="99" pc="268439220" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="101" pc="268439227" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="102" pc="268439246" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="103" pc="268439256" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="105" pc="268439266" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="106" pc="268439273" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="107" pc="268439284" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="109" pc="268439294" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="110" pc="268439305" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="113" pc="268439318" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="114" pc="268439334" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="115" pc="268439359" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="120" pc="268439374" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="121" pc="268439393" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="122" pc="268439400" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="123" pc="268439414" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="125" pc="268439453" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="126" pc="268439478" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="127" pc="268439497" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="128" pc="268439504" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="129" pc="268439518" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="134" pc="268439557" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="135" pc="268439573" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="136" pc="268439604" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="138" pc="268439619" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="140" pc="268439644" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="141" pc="268439663" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="142" pc="268439670" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="143" pc="268439684" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="145" pc="268439723" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="146" pc="268439745" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="147" pc="268439770" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="148" pc="268439789" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="149" pc="268439796" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="150" pc="268439810" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="154" pc="268439849" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="155" pc="268439866" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="156" pc="268439888" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="157" pc="268439892" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="158" pc="268439902" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="159" pc="268439920" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="160" pc="268439951" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="161" pc="268439972" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="33" lineNum="162" pc="268439993" symbol="drawTime"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="34" lineNum="171" pc="268440051" symbol="draw"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="34" lineNum="175" pc="268440055" symbol="draw"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="34" lineNum="176" pc="268440062" symbol="draw"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="34" lineNum="177" pc="268440069" symbol="draw"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="34" lineNum="179" pc="268440088" symbol="draw"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="34" lineNum="180" pc="268440099" symbol="draw"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="34" lineNum="183" pc="268440116" symbol="draw"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="34" lineNum="185" pc="268440136" symbol="draw"/>
+        <entry filename="C:\\Users\\thoomas\\eclipse-workspace\\solstice\\source\\solsticeArcs.mc" id="34" lineNum="7" pc="268440231" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="40" lineNum="17" pc="268440157" symbol="WatchFace"/>
+        <entry filename="Rez" id="40" lineNum="19" pc="268440169" symbol="WatchFace"/>
+        <entry filename="Rez" id="40" lineNum="21" pc="268440193" symbol="WatchFace"/>
+        <entry filename="Rez" id="42" lineNum="1" pc="268440250" symbol="&lt;init&gt;"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="4" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry field="true" id="21" symbol="ColorRed"/>
+        <entry id="37" method="true" symbol="clamp"/>
+        <entry id="14" method="true" symbol="clearTime"/>
+        <entry field="true" id="25" symbol="MilitaryFormatTitle"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="20" symbol="ColorBlue"/>
+        <entry id="13" method="true" symbol="drawMonth"/>
+        <entry id="15" method="true" symbol="drawTime"/>
+        <entry id="12" method="true" symbol="degreesRotateAndClamp"/>
+        <entry field="true" id="28" symbol="AppName"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="30" symbol="&lt;globals/solsticeView/&lt;&gt;animationTicks&gt;"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="32" symbol="&lt;globals/solsticeView/&lt;&gt;center&gt;"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="17" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry field="true" id="24" symbol="ColorDarkGray"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry field="true" id="29" symbol="&lt;globals/solsticeView/&lt;&gt;_isAwake&gt;"/>
+        <entry field="true" id="27" symbol="ColorWhite"/>
+        <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+        <entry field="true" id="26" symbol="ColorBlack"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="36" method="true" symbol="timerCallback"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="18" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="35" method="true" symbol="startTimer"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="23" symbol="BackgroundColorTitle"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry field="true" id="31" symbol="&lt;globals/solsticeView/&lt;&gt;animationTimer&gt;"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="11" object="true" symbol="ArcLayer"/>
+        <entry id="9" object="true" symbol="solsticeView"/>
+        <entry field="true" id="19" symbol="ColorLightGray"/>
+        <entry id="8391701" method="true" symbol="setAntiAlias"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="22" symbol="ForegroundColorTitle"/>
+        <entry field="true" id="33" symbol="&lt;globals/solsticeView/&lt;&gt;doFullUpdate&gt;"/>
+        <entry id="10" object="true" symbol="solsticeApp"/>
+        <entry id="8388646" module="true" object="true" symbol="Timer"/>
+        <entry id="16" module="true" symbol="Layouts"/>
+        <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="34" method="true" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435500" name="dictionary" stackId="1" startPc="268435460"/>
+        <entry arg="true" endPc="268435567" name="dc" stackId="1" startPc="268435502"/>
+        <entry arg="true" endPc="268435595" name="dc" stackId="1" startPc="268435591"/>
+        <entry arg="true" endPc="268435679" name="dc" stackId="1" startPc="268435633"/>
+        <entry endPc="268435889" name="secondaryColor" stackId="3" startPc="268435684"/>
+        <entry endPc="268435889" name="primaryColor" stackId="2" startPc="268435684"/>
+        <entry arg="true" endPc="268435890" name="dc" stackId="1" startPc="268435680"/>
+        <entry arg="true" endPc="268436234" name="degree" stackId="1" startPc="268436159"/>
+        <entry endPc="268436776" name="curDayOfWeek" stackId="18" startPc="268436617"/>
+        <entry endPc="268436789" name="d" stackId="17" startPc="268436617"/>
+        <entry endPc="268437057" name="m" stackId="22" startPc="268436884"/>
+        <entry endPc="268437057" name="monthWidth" stackId="21" startPc="268436838"/>
+        <entry endPc="268437057" name="space" stackId="20" startPc="268436838"/>
+        <entry endPc="268437060" name="curWeek" stackId="16" startPc="268436239"/>
+        <entry endPc="268437060" name="date" stackId="5" startPc="268436239"/>
+        <entry endPc="268437060" name="monthDuration" stackId="8" startPc="268436239"/>
+        <entry endPc="268437060" name="offsetY" stackId="15" startPc="268436239"/>
+        <entry endPc="268437060" name="pwidth" stackId="19" startPc="268436239"/>
+        <entry endPc="268437060" name="offsetX" stackId="14" startPc="268436239"/>
+        <entry endPc="268437060" name="dayHeight" stackId="13" startPc="268436239"/>
+        <entry endPc="268437060" name="month" stackId="7" startPc="268436239"/>
+        <entry endPc="268437060" name="dayWidth" stackId="12" startPc="268436239"/>
+        <entry endPc="268437060" name="weekDay" stackId="6" startPc="268436239"/>
+        <entry endPc="268437060" name="day" stackId="10" startPc="268436239"/>
+        <entry endPc="268437060" name="firstDayOfWeekInMonth" stackId="11" startPc="268436239"/>
+        <entry endPc="268437060" name="currMonthDuration" stackId="9" startPc="268436239"/>
+        <entry arg="true" endPc="268437061" name="center" stackId="2" startPc="268436235"/>
+        <entry arg="true" endPc="268437061" name="dc" stackId="1" startPc="268436235"/>
+        <entry arg="true" endPc="268437061" name="secondaryColor" stackId="4" startPc="268436235"/>
+        <entry arg="true" endPc="268437061" name="primaryColor" stackId="3" startPc="268436235"/>
+        <entry endPc="268437150" name="pwidth" stackId="5" startPc="268437066"/>
+        <entry arg="true" endPc="268437151" name="center" stackId="2" startPc="268437062"/>
+        <entry arg="true" endPc="268437151" name="dc" stackId="1" startPc="268437062"/>
+        <entry arg="true" endPc="268437151" name="secondaryColor" stackId="4" startPc="268437062"/>
+        <entry arg="true" endPc="268437151" name="primaryColor" stackId="3" startPc="268437062"/>
+        <entry arg="true" endPc="268437187" name="b" stackId="3" startPc="268437152"/>
+        <entry arg="true" endPc="268437187" name="a" stackId="2" startPc="268437152"/>
+        <entry arg="true" endPc="268437187" name="v" stackId="1" startPc="268437152"/>
+        <entry endPc="268437943" name="minuteRadius" stackId="12" startPc="268437629"/>
+        <entry endPc="268438145" name="sin" stackId="18" startPc="268438029"/>
+        <entry endPc="268438145" name="cos" stackId="17" startPc="268438029"/>
+        <entry endPc="268438145" name="angle" stackId="16" startPc="268438029"/>
+        <entry endPc="268438158" name="i" stackId="15" startPc="268438029"/>
+        <entry endPc="268438158" name="outerRadius" stackId="13" startPc="268437958"/>
+        <entry endPc="268438158" name="innerRadius" stackId="14" startPc="268437958"/>
+        <entry endPc="268438161" name="filldirection" stackId="9" startPc="268437192"/>
+        <entry endPc="268438161" name="hours" stackId="7" startPc="268437192"/>
+        <entry endPc="268438161" name="sleepHourWidth" stackId="11" startPc="268437192"/>
+        <entry endPc="268438161" name="min" stackId="8" startPc="268437192"/>
+        <entry endPc="268438161" name="pwidth" stackId="5" startPc="268437192"/>
+        <entry endPc="268438161" name="clockTime" stackId="6" startPc="268437192"/>
+        <entry endPc="268438161" name="degrees" stackId="10" startPc="268437192"/>
+        <entry arg="true" endPc="268438162" name="center" stackId="2" startPc="268437188"/>
+        <entry arg="true" endPc="268438162" name="dc" stackId="1" startPc="268437188"/>
+        <entry arg="true" endPc="268438162" name="secondaryColor" stackId="4" startPc="268437188"/>
+        <entry arg="true" endPc="268438162" name="primaryColor" stackId="3" startPc="268437188"/>
+        <entry arg="true" endPc="268438190" name="state" stackId="1" startPc="268438186"/>
+        <entry arg="true" endPc="268438195" name="state" stackId="1" startPc="268438191"/>
+        <entry endPc="268438332" name="dictionary" stackId="1" startPc="268438292"/>
+        <entry arg="true" endPc="268438409" name="degree" stackId="1" startPc="268438334"/>
+        <entry endPc="268438922" name="curDayOfWeek" stackId="18" startPc="268438792"/>
+        <entry endPc="268438935" name="d" stackId="17" startPc="268438792"/>
+        <entry endPc="268439124" name="m" stackId="21" startPc="268438985"/>
+        <entry endPc="268439124" name="space" stackId="19" startPc="268438414"/>
+        <entry endPc="268439124" name="curWeek" stackId="16" startPc="268438414"/>
+        <entry endPc="268439124" name="date" stackId="5" startPc="268438414"/>
+        <entry endPc="268439124" name="monthDuration" stackId="8" startPc="268438414"/>
+        <entry endPc="268439124" name="offsetY" stackId="15" startPc="268438414"/>
+        <entry endPc="268439124" name="offsetX" stackId="14" startPc="268438414"/>
+        <entry endPc="268439124" name="dayHeight" stackId="13" startPc="268438414"/>
+        <entry endPc="268439124" name="month" stackId="7" startPc="268438414"/>
+        <entry endPc="268439124" name="dayWidth" stackId="12" startPc="268438414"/>
+        <entry endPc="268439124" name="weekDay" stackId="6" startPc="268438414"/>
+        <entry endPc="268439124" name="day" stackId="10" startPc="268438414"/>
+        <entry endPc="268439124" name="monthWidth" stackId="20" startPc="268438414"/>
+        <entry endPc="268439124" name="firstDayOfWeekInMonth" stackId="11" startPc="268438414"/>
+        <entry endPc="268439124" name="currMonthDuration" stackId="9" startPc="268438414"/>
+        <entry arg="true" endPc="268439125" name="center" stackId="2" startPc="268438410"/>
+        <entry arg="true" endPc="268439125" name="dc" stackId="1" startPc="268438410"/>
+        <entry arg="true" endPc="268439125" name="secondaryColor" stackId="4" startPc="268438410"/>
+        <entry arg="true" endPc="268439125" name="primaryColor" stackId="3" startPc="268438410"/>
+        <entry endPc="268439214" name="pwidth" stackId="5" startPc="268439130"/>
+        <entry arg="true" endPc="268439215" name="center" stackId="2" startPc="268439126"/>
+        <entry arg="true" endPc="268439215" name="dc" stackId="1" startPc="268439126"/>
+        <entry arg="true" endPc="268439215" name="secondaryColor" stackId="4" startPc="268439126"/>
+        <entry arg="true" endPc="268439215" name="primaryColor" stackId="3" startPc="268439126"/>
+        <entry endPc="268440036" name="sin" stackId="17" startPc="268439920"/>
+        <entry endPc="268440036" name="cos" stackId="16" startPc="268439920"/>
+        <entry endPc="268440036" name="angle" stackId="15" startPc="268439920"/>
+        <entry endPc="268440049" name="i" stackId="14" startPc="268439920"/>
+        <entry endPc="268440049" name="degrees" stackId="10" startPc="268439220"/>
+        <entry endPc="268440049" name="clockTime" stackId="6" startPc="268439220"/>
+        <entry endPc="268440049" name="min" stackId="8" startPc="268439220"/>
+        <entry endPc="268440049" name="pwidth" stackId="5" startPc="268439220"/>
+        <entry endPc="268440049" name="outerRadius" stackId="12" startPc="268439220"/>
+        <entry endPc="268440049" name="minuteRadius" stackId="11" startPc="268439220"/>
+        <entry endPc="268440049" name="innerRadius" stackId="13" startPc="268439220"/>
+        <entry endPc="268440049" name="hours" stackId="7" startPc="268439220"/>
+        <entry endPc="268440049" name="filldirection" stackId="9" startPc="268439220"/>
+        <entry arg="true" endPc="268440050" name="center" stackId="2" startPc="268439216"/>
+        <entry arg="true" endPc="268440050" name="dc" stackId="1" startPc="268439216"/>
+        <entry arg="true" endPc="268440050" name="secondaryColor" stackId="4" startPc="268439216"/>
+        <entry arg="true" endPc="268440050" name="primaryColor" stackId="3" startPc="268439216"/>
+        <entry endPc="268440155" name="center" stackId="4" startPc="268440055"/>
+        <entry endPc="268440155" name="secondaryColor" stackId="3" startPc="268440055"/>
+        <entry endPc="268440155" name="primaryColor" stackId="2" startPc="268440055"/>
+        <entry arg="true" endPc="268440156" name="dc" stackId="1" startPc="268440051"/>
+        <entry endPc="268440209" name="rez_cmp_local_custom_drawable_58920827917594918654" stackId="2" startPc="268440169"/>
+        <entry arg="true" endPc="268440210" name="dc" stackId="1" startPc="268440157"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Background" offset="174" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/ArcLayer" offset="229" parentId="globals" symbolId="ArcLayer" type="class"/>
+        <dataEntry label="globals/Rez" offset="316" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="395" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="434" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="465" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="496" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="535" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="566" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/solsticeView" offset="677" parentId="globals" symbolId="solsticeView" type="class"/>
+        <dataEntry label="globals/solsticeApp" offset="876" parentId="globals" symbolId="solsticeApp" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" name="initialize" parent="Background">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="draw" parent="Background">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="solsticeView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="solsticeView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="solsticeView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="solsticeView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" name="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;" parent="solsticeView">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Handle the partial update event<br/> <div class="param"> dc Device Context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="solsticeView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="solsticeView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="startTimer" parent="solsticeView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="timerCallback" parent="solsticeView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="solsticeView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="degreesRotateAndClamp" parent="solsticeView">
+            <param id="degree"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawMonth" parent="solsticeView">
+            <param id="dc"/>
+            <param id="center"/>
+            <param id="primaryColor"/>
+            <param id="secondaryColor"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="clearTime" parent="solsticeView">
+            <param id="dc"/>
+            <param id="center"/>
+            <param id="primaryColor"/>
+            <param id="secondaryColor"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="clamp" parent="solsticeView">
+            <param id="v"/>
+            <param id="a"/>
+            <param id="b"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawTime" parent="solsticeView">
+            <param id="dc"/>
+            <param id="center"/>
+            <param id="primaryColor"/>
+            <param id="secondaryColor"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="solsticeApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="solsticeApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="solsticeApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getInitialView" parent="solsticeApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onSettingsChanged" parent="solsticeApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="ArcLayer">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="degreesRotateAndClamp" parent="ArcLayer">
+            <param id="degree"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawMonth" parent="ArcLayer">
+            <param id="dc"/>
+            <param id="center"/>
+            <param id="primaryColor"/>
+            <param id="secondaryColor"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="clearTime" parent="ArcLayer">
+            <param id="dc"/>
+            <param id="center"/>
+            <param id="primaryColor"/>
+            <param id="secondaryColor"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawTime" parent="ArcLayer">
+            <param id="dc"/>
+            <param id="center"/>
+            <param id="primaryColor"/>
+            <param id="secondaryColor"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="draw" parent="ArcLayer">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="WatchFace" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
