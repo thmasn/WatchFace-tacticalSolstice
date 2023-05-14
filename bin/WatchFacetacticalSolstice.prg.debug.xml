@@ -172,107 +172,108 @@
 <entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="226" parent="globals/solsticeView" pc="268438529" symbol="drawTime"/>
 <entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="227" parent="globals/solsticeView" pc="268438560" symbol="drawTime"/>
 <entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="228" parent="globals/solsticeView" pc="268438574" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="231" parent="globals/solsticeView" pc="268438616" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="232" parent="globals/solsticeView" pc="268438623" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="233" parent="globals/solsticeView" pc="268438648" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="234" parent="globals/solsticeView" pc="268438667" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="235" parent="globals/solsticeView" pc="268438701" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="236" parent="globals/solsticeView" pc="268438713" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="238" parent="globals/solsticeView" pc="268438720" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="239" parent="globals/solsticeView" pc="268438734" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="244" parent="globals/solsticeView" pc="268438773" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="245" parent="globals/solsticeView" pc="268438784" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="231" parent="globals/solsticeView" pc="268438613" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="232" parent="globals/solsticeView" pc="268438620" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="233" parent="globals/solsticeView" pc="268438645" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="234" parent="globals/solsticeView" pc="268438664" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="235" parent="globals/solsticeView" pc="268438698" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="236" parent="globals/solsticeView" pc="268438710" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="238" parent="globals/solsticeView" pc="268438717" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="239" parent="globals/solsticeView" pc="268438731" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="240" parent="globals/solsticeView" pc="268438756" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="245" parent="globals/solsticeView" pc="268438789" symbol="drawTime"/>
 <entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="246" parent="globals/solsticeView" pc="268438800" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="247" parent="globals/solsticeView" pc="268438831" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="249" parent="globals/solsticeView" pc="268438846" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="251" parent="globals/solsticeView" pc="268438871" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="252" parent="globals/solsticeView" pc="268438890" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="253" parent="globals/solsticeView" pc="268438927" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="254" parent="globals/solsticeView" pc="268438938" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="255" parent="globals/solsticeView" pc="268438952" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="257" parent="globals/solsticeView" pc="268438991" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="258" parent="globals/solsticeView" pc="268439029" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="259" parent="globals/solsticeView" pc="268439054" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="260" parent="globals/solsticeView" pc="268439073" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="266" parent="globals/solsticeView" pc="268439118" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="267" parent="globals/solsticeView" pc="268439129" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="268" parent="globals/solsticeView" pc="268439146" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="269" parent="globals/solsticeView" pc="268439168" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="270" parent="globals/solsticeView" pc="268439172" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="271" parent="globals/solsticeView" pc="268439182" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="272" parent="globals/solsticeView" pc="268439200" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="273" parent="globals/solsticeView" pc="268439222" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="274" parent="globals/solsticeView" pc="268439243" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="275" parent="globals/solsticeView" pc="268439264" symbol="drawTime"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="15" lineNum="104" parent="globals/solsticeView" pc="268439325" symbol="degreesRotateAndClamp"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="15" lineNum="105" parent="globals/solsticeView" pc="268439327" symbol="degreesRotateAndClamp"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="15" lineNum="106" parent="globals/solsticeView" pc="268439337" symbol="degreesRotateAndClamp"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="15" lineNum="107" parent="globals/solsticeView" pc="268439347" symbol="degreesRotateAndClamp"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="15" lineNum="108" parent="globals/solsticeView" pc="268439358" symbol="degreesRotateAndClamp"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="15" lineNum="110" parent="globals/solsticeView" pc="268439371" symbol="degreesRotateAndClamp"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="15" lineNum="111" parent="globals/solsticeView" pc="268439382" symbol="degreesRotateAndClamp"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="15" lineNum="113" parent="globals/solsticeView" pc="268439395" symbol="degreesRotateAndClamp"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="16" lineNum="88" parent="globals/solsticeView" pc="268439398" symbol="timerCallback"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="16" lineNum="89" parent="globals/solsticeView" pc="268439400" symbol="timerCallback"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="16" lineNum="90" parent="globals/solsticeView" pc="268439419" symbol="timerCallback"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="16" lineNum="91" parent="globals/solsticeView" pc="268439431" symbol="timerCallback"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="16" lineNum="92" parent="globals/solsticeView" pc="268439448" symbol="timerCallback"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="51" parent="globals/solsticeView" pc="268439470" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="52" parent="globals/solsticeView" pc="268439474" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="53" parent="globals/solsticeView" pc="268439481" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="54" parent="globals/solsticeView" pc="268439488" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="56" parent="globals/solsticeView" pc="268439513" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="57" parent="globals/solsticeView" pc="268439523" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="58" parent="globals/solsticeView" pc="268439534" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="59" parent="globals/solsticeView" pc="268439556" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="60" parent="globals/solsticeView" pc="268439568" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="61" parent="globals/solsticeView" pc="268439579" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="63" parent="globals/solsticeView" pc="268439608" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="65" parent="globals/solsticeView" pc="268439621" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="67" parent="globals/solsticeView" pc="268439647" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="18" lineNum="97" parent="globals/solsticeView" pc="268439674" symbol="onEnterSleep"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="18" lineNum="98" parent="globals/solsticeView" pc="268439676" symbol="onEnterSleep"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="18" lineNum="99" parent="globals/solsticeView" pc="268439686" symbol="onEnterSleep"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="18" lineNum="100" parent="globals/solsticeView" pc="268439696" symbol="onEnterSleep"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="18" lineNum="101" parent="globals/solsticeView" pc="268439709" symbol="onEnterSleep"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="19" lineNum="83" parent="globals/solsticeView" pc="268439731" symbol="startTimer"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="19" lineNum="84" parent="globals/solsticeView" pc="268439733" symbol="startTimer"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="19" lineNum="85" parent="globals/solsticeView" pc="268439746" symbol="startTimer"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="19" lineNum="86" parent="globals/solsticeView" pc="268439780" symbol="startTimer"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="20" lineNum="17" parent="globals/solsticeView" pc="268439822" symbol="initialize"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="20" lineNum="18" parent="globals/solsticeView" pc="268439824" symbol="initialize"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="22" lineNum="36" parent="globals/solsticeView" pc="268439843" symbol="onUpdate"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="22" lineNum="41" parent="globals/solsticeView" pc="268439845" symbol="onUpdate"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="22" lineNum="42" parent="globals/solsticeView" pc="268439856" symbol="onUpdate"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="22" lineNum="44" parent="globals/solsticeView" pc="268439873" symbol="onUpdate"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="23" lineNum="191" parent="globals/solsticeView" pc="268439888" symbol="clamp"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="23" lineNum="192" parent="globals/solsticeView" pc="268439890" symbol="clamp"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="23" lineNum="193" parent="globals/solsticeView" pc="268439898" symbol="clamp"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="23" lineNum="194" parent="globals/solsticeView" pc="268439904" symbol="clamp"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="23" lineNum="195" parent="globals/solsticeView" pc="268439912" symbol="clamp"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="23" lineNum="197" parent="globals/solsticeView" pc="268439918" symbol="clamp"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="24" lineNum="31" parent="globals" pc="268439922" symbol="getApp"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="24" lineNum="32" parent="globals" pc="268439932" symbol="getApp"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeBackground.mc" id="25" lineNum="6" parent="globals/Background" pc="268439948" symbol="&lt;init&gt;"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeBackground.mc" id="26" lineNum="8" parent="globals/Background" pc="268439967" symbol="initialize"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeBackground.mc" id="26" lineNum="9" parent="globals/Background" pc="268439971" symbol="initialize"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeBackground.mc" id="26" lineNum="13" parent="globals/Background" pc="268439992" symbol="initialize"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeBackground.mc" id="27" lineNum="16" parent="globals/Background" pc="268440013" symbol="draw"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeBackground.mc" id="27" lineNum="18" parent="globals/Background" pc="268440015" symbol="draw"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeBackground.mc" id="27" lineNum="19" parent="globals/Background" pc="268440057" symbol="draw"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/bin/gen/006-B3703-00/source/Rez.mcgen" id="28" lineNum="7" parent="globals/Rez" pc="268440070" symbol="&lt;init&gt;"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="29" lineNum="5" parent="globals/solsticeApp" pc="268440094" symbol="&lt;init&gt;"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="30" lineNum="12" parent="globals/solsticeApp" pc="268440113" symbol="onStart"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="31" lineNum="25" parent="globals/solsticeApp" pc="268440116" symbol="onSettingsChanged"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="31" lineNum="26" parent="globals/solsticeApp" pc="268440118" symbol="onSettingsChanged"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="32" lineNum="20" parent="globals/solsticeApp" pc="268440135" symbol="getInitialView"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="32" lineNum="21" parent="globals/solsticeApp" pc="268440137" symbol="getInitialView"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="33" lineNum="7" parent="globals/solsticeApp" pc="268440178" symbol="initialize"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="33" lineNum="8" parent="globals/solsticeApp" pc="268440180" symbol="initialize"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="34" lineNum="16" parent="globals/solsticeApp" pc="268440199" symbol="onStop"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/bin/gen/006-B3703-00/source/Rez.mcgen" id="35" lineNum="19" parent="globals/Rez/Layouts" pc="268440202" symbol="WatchFace"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/bin/gen/006-B3703-00/source/Rez.mcgen" id="35" lineNum="20" parent="globals/Rez/Layouts" pc="268440214" symbol="WatchFace"/>
-<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/bin/gen/006-B3703-00/source/Rez.mcgen" id="35" lineNum="22" parent="globals/Rez/Layouts" pc="268440242" symbol="WatchFace"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="247" parent="globals/solsticeView" pc="268438816" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="248" parent="globals/solsticeView" pc="268438847" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="250" parent="globals/solsticeView" pc="268438862" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="252" parent="globals/solsticeView" pc="268438887" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="253" parent="globals/solsticeView" pc="268438906" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="254" parent="globals/solsticeView" pc="268438943" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="255" parent="globals/solsticeView" pc="268438954" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="256" parent="globals/solsticeView" pc="268438968" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="258" parent="globals/solsticeView" pc="268439007" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="259" parent="globals/solsticeView" pc="268439045" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="260" parent="globals/solsticeView" pc="268439070" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="261" parent="globals/solsticeView" pc="268439089" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="267" parent="globals/solsticeView" pc="268439134" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="268" parent="globals/solsticeView" pc="268439145" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="269" parent="globals/solsticeView" pc="268439162" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="270" parent="globals/solsticeView" pc="268439184" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="271" parent="globals/solsticeView" pc="268439188" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="272" parent="globals/solsticeView" pc="268439198" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="273" parent="globals/solsticeView" pc="268439216" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="274" parent="globals/solsticeView" pc="268439238" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="275" parent="globals/solsticeView" pc="268439259" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="14" lineNum="276" parent="globals/solsticeView" pc="268439280" symbol="drawTime"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="15" lineNum="104" parent="globals/solsticeView" pc="268439341" symbol="degreesRotateAndClamp"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="15" lineNum="105" parent="globals/solsticeView" pc="268439343" symbol="degreesRotateAndClamp"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="15" lineNum="106" parent="globals/solsticeView" pc="268439353" symbol="degreesRotateAndClamp"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="15" lineNum="107" parent="globals/solsticeView" pc="268439363" symbol="degreesRotateAndClamp"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="15" lineNum="108" parent="globals/solsticeView" pc="268439374" symbol="degreesRotateAndClamp"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="15" lineNum="110" parent="globals/solsticeView" pc="268439387" symbol="degreesRotateAndClamp"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="15" lineNum="111" parent="globals/solsticeView" pc="268439398" symbol="degreesRotateAndClamp"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="15" lineNum="113" parent="globals/solsticeView" pc="268439411" symbol="degreesRotateAndClamp"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="16" lineNum="88" parent="globals/solsticeView" pc="268439414" symbol="timerCallback"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="16" lineNum="89" parent="globals/solsticeView" pc="268439416" symbol="timerCallback"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="16" lineNum="90" parent="globals/solsticeView" pc="268439435" symbol="timerCallback"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="16" lineNum="91" parent="globals/solsticeView" pc="268439447" symbol="timerCallback"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="16" lineNum="92" parent="globals/solsticeView" pc="268439464" symbol="timerCallback"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="51" parent="globals/solsticeView" pc="268439486" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="52" parent="globals/solsticeView" pc="268439490" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="53" parent="globals/solsticeView" pc="268439497" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="54" parent="globals/solsticeView" pc="268439504" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="56" parent="globals/solsticeView" pc="268439529" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="57" parent="globals/solsticeView" pc="268439539" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="58" parent="globals/solsticeView" pc="268439550" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="59" parent="globals/solsticeView" pc="268439572" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="60" parent="globals/solsticeView" pc="268439584" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="61" parent="globals/solsticeView" pc="268439595" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="63" parent="globals/solsticeView" pc="268439624" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="65" parent="globals/solsticeView" pc="268439637" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="17" lineNum="67" parent="globals/solsticeView" pc="268439663" symbol="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="18" lineNum="97" parent="globals/solsticeView" pc="268439690" symbol="onEnterSleep"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="18" lineNum="98" parent="globals/solsticeView" pc="268439692" symbol="onEnterSleep"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="18" lineNum="99" parent="globals/solsticeView" pc="268439702" symbol="onEnterSleep"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="18" lineNum="100" parent="globals/solsticeView" pc="268439712" symbol="onEnterSleep"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="18" lineNum="101" parent="globals/solsticeView" pc="268439725" symbol="onEnterSleep"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="19" lineNum="83" parent="globals/solsticeView" pc="268439747" symbol="startTimer"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="19" lineNum="84" parent="globals/solsticeView" pc="268439749" symbol="startTimer"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="19" lineNum="85" parent="globals/solsticeView" pc="268439762" symbol="startTimer"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="19" lineNum="86" parent="globals/solsticeView" pc="268439796" symbol="startTimer"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="20" lineNum="17" parent="globals/solsticeView" pc="268439838" symbol="initialize"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="20" lineNum="18" parent="globals/solsticeView" pc="268439840" symbol="initialize"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="22" lineNum="36" parent="globals/solsticeView" pc="268439859" symbol="onUpdate"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="22" lineNum="41" parent="globals/solsticeView" pc="268439861" symbol="onUpdate"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="22" lineNum="42" parent="globals/solsticeView" pc="268439872" symbol="onUpdate"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="22" lineNum="44" parent="globals/solsticeView" pc="268439889" symbol="onUpdate"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="23" lineNum="191" parent="globals/solsticeView" pc="268439904" symbol="clamp"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="23" lineNum="192" parent="globals/solsticeView" pc="268439906" symbol="clamp"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="23" lineNum="193" parent="globals/solsticeView" pc="268439914" symbol="clamp"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="23" lineNum="194" parent="globals/solsticeView" pc="268439920" symbol="clamp"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="23" lineNum="195" parent="globals/solsticeView" pc="268439928" symbol="clamp"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeView.mc" id="23" lineNum="197" parent="globals/solsticeView" pc="268439934" symbol="clamp"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="24" lineNum="31" parent="globals" pc="268439938" symbol="getApp"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="24" lineNum="32" parent="globals" pc="268439948" symbol="getApp"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeBackground.mc" id="25" lineNum="6" parent="globals/Background" pc="268439964" symbol="&lt;init&gt;"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeBackground.mc" id="26" lineNum="8" parent="globals/Background" pc="268439983" symbol="initialize"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeBackground.mc" id="26" lineNum="9" parent="globals/Background" pc="268439987" symbol="initialize"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeBackground.mc" id="26" lineNum="13" parent="globals/Background" pc="268440008" symbol="initialize"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeBackground.mc" id="27" lineNum="16" parent="globals/Background" pc="268440029" symbol="draw"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeBackground.mc" id="27" lineNum="18" parent="globals/Background" pc="268440031" symbol="draw"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeBackground.mc" id="27" lineNum="19" parent="globals/Background" pc="268440073" symbol="draw"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/bin/gen/006-B3703-00/source/Rez.mcgen" id="28" lineNum="7" parent="globals/Rez" pc="268440086" symbol="&lt;init&gt;"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="29" lineNum="5" parent="globals/solsticeApp" pc="268440110" symbol="&lt;init&gt;"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="30" lineNum="12" parent="globals/solsticeApp" pc="268440129" symbol="onStart"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="31" lineNum="25" parent="globals/solsticeApp" pc="268440132" symbol="onSettingsChanged"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="31" lineNum="26" parent="globals/solsticeApp" pc="268440134" symbol="onSettingsChanged"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="32" lineNum="20" parent="globals/solsticeApp" pc="268440151" symbol="getInitialView"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="32" lineNum="21" parent="globals/solsticeApp" pc="268440153" symbol="getInitialView"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="33" lineNum="7" parent="globals/solsticeApp" pc="268440194" symbol="initialize"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="33" lineNum="8" parent="globals/solsticeApp" pc="268440196" symbol="initialize"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeApp.mc" id="34" lineNum="16" parent="globals/solsticeApp" pc="268440215" symbol="onStop"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/bin/gen/006-B3703-00/source/Rez.mcgen" id="35" lineNum="19" parent="globals/Rez/Layouts" pc="268440218" symbol="WatchFace"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/bin/gen/006-B3703-00/source/Rez.mcgen" id="35" lineNum="20" parent="globals/Rez/Layouts" pc="268440230" symbol="WatchFace"/>
+<entry filename="/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/bin/gen/006-B3703-00/source/Rez.mcgen" id="35" lineNum="22" parent="globals/Rez/Layouts" pc="268440258" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -422,36 +423,37 @@
 <entry arg="true" endPc="268438339" name="primaryColor" stackId="3" startPc="268438250"/>
 <entry arg="true" endPc="268438339" name="secondaryColor" stackId="4" startPc="268438250"/>
 <entry endPc="268438338" name="pwidth" stackId="5" startPc="268438254"/>
-<entry arg="true" endPc="268439324" name="dc" stackId="1" startPc="268438343"/>
-<entry arg="true" endPc="268439324" name="center" stackId="2" startPc="268438343"/>
-<entry arg="true" endPc="268439324" name="primaryColor" stackId="3" startPc="268438343"/>
-<entry arg="true" endPc="268439324" name="secondaryColor" stackId="4" startPc="268438343"/>
-<entry endPc="268439323" name="pwidth" stackId="5" startPc="268438347"/>
-<entry endPc="268439323" name="clockTime" stackId="6" startPc="268438347"/>
-<entry endPc="268439323" name="hours" stackId="7" startPc="268438347"/>
-<entry endPc="268439323" name="min" stackId="8" startPc="268438347"/>
-<entry endPc="268439323" name="filldirection" stackId="9" startPc="268438347"/>
-<entry endPc="268439323" name="degrees" stackId="10" startPc="268438347"/>
-<entry endPc="268439323" name="sleepHourWidth" stackId="11" startPc="268438347"/>
-<entry endPc="268439114" name="minuteRadius" stackId="12" startPc="268438784"/>
-<entry endPc="268439320" name="outerRadius" stackId="13" startPc="268439129"/>
-<entry endPc="268439320" name="innerRadius" stackId="14" startPc="268439129"/>
-<entry endPc="268439320" name="i" stackId="15" startPc="268439200"/>
-<entry endPc="268439307" name="angle" stackId="16" startPc="268439200"/>
-<entry endPc="268439307" name="cos" stackId="17" startPc="268439200"/>
-<entry endPc="268439307" name="sin" stackId="18" startPc="268439200"/>
-<entry arg="true" endPc="268439397" name="degree" stackId="1" startPc="268439325"/>
-<entry arg="true" endPc="268439673" name="dc" stackId="1" startPc="268439470"/>
-<entry endPc="268439672" name="primaryColor" stackId="2" startPc="268439474"/>
-<entry endPc="268439672" name="secondaryColor" stackId="3" startPc="268439474"/>
-<entry arg="true" endPc="268439887" name="dc" stackId="1" startPc="268439843"/>
-<entry arg="true" endPc="268439921" name="v" stackId="1" startPc="268439888"/>
-<entry arg="true" endPc="268439921" name="a" stackId="2" startPc="268439888"/>
-<entry arg="true" endPc="268439921" name="b" stackId="3" startPc="268439888"/>
-<entry endPc="268440011" name="dictionary" stackId="1" startPc="268439971"/>
-<entry arg="true" endPc="268440069" name="dc" stackId="1" startPc="268440013"/>
-<entry arg="true" endPc="268440258" name="dc" stackId="1" startPc="268440202"/>
-<entry endPc="268440258" name="rez_cmp_local_custom_drawable_91987051816283183171" stackId="2" startPc="268440214"/>
+<entry arg="true" endPc="268439340" name="dc" stackId="1" startPc="268438343"/>
+<entry arg="true" endPc="268439340" name="center" stackId="2" startPc="268438343"/>
+<entry arg="true" endPc="268439340" name="primaryColor" stackId="3" startPc="268438343"/>
+<entry arg="true" endPc="268439340" name="secondaryColor" stackId="4" startPc="268438343"/>
+<entry endPc="268439339" name="pwidth" stackId="5" startPc="268438347"/>
+<entry endPc="268439339" name="clockTime" stackId="6" startPc="268438347"/>
+<entry endPc="268439339" name="hours" stackId="7" startPc="268438347"/>
+<entry endPc="268439339" name="min" stackId="8" startPc="268438347"/>
+<entry endPc="268439339" name="filldirection" stackId="9" startPc="268438347"/>
+<entry endPc="268439339" name="degrees" stackId="10" startPc="268438347"/>
+<entry endPc="268439339" name="sleepHourWidth" stackId="11" startPc="268438347"/>
+<entry endPc="268438785" name="distanceFromOutside" stackId="12" startPc="268438645"/>
+<entry endPc="268439130" name="minuteRadius" stackId="13" startPc="268438800"/>
+<entry endPc="268439336" name="outerRadius" stackId="14" startPc="268439145"/>
+<entry endPc="268439336" name="innerRadius" stackId="15" startPc="268439145"/>
+<entry endPc="268439336" name="i" stackId="16" startPc="268439216"/>
+<entry endPc="268439323" name="angle" stackId="17" startPc="268439216"/>
+<entry endPc="268439323" name="cos" stackId="18" startPc="268439216"/>
+<entry endPc="268439323" name="sin" stackId="19" startPc="268439216"/>
+<entry arg="true" endPc="268439413" name="degree" stackId="1" startPc="268439341"/>
+<entry arg="true" endPc="268439689" name="dc" stackId="1" startPc="268439486"/>
+<entry endPc="268439688" name="primaryColor" stackId="2" startPc="268439490"/>
+<entry endPc="268439688" name="secondaryColor" stackId="3" startPc="268439490"/>
+<entry arg="true" endPc="268439903" name="dc" stackId="1" startPc="268439859"/>
+<entry arg="true" endPc="268439937" name="v" stackId="1" startPc="268439904"/>
+<entry arg="true" endPc="268439937" name="a" stackId="2" startPc="268439904"/>
+<entry arg="true" endPc="268439937" name="b" stackId="3" startPc="268439904"/>
+<entry endPc="268440027" name="dictionary" stackId="1" startPc="268439987"/>
+<entry arg="true" endPc="268440085" name="dc" stackId="1" startPc="268440029"/>
+<entry arg="true" endPc="268440274" name="dc" stackId="1" startPc="268440218"/>
+<entry endPc="268440274" name="rez_cmp_local_custom_drawable_50338921101874574717" stackId="2" startPc="268440230"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
@@ -543,79 +545,79 @@
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439324" name="drawTime" parent="solsticeView" startPc="268438343">
+<functionEntry accessMode="public" endPc="268439340" name="drawTime" parent="solsticeView" startPc="268438343">
 <param id="dc"/>
 <param id="center"/>
 <param id="primaryColor"/>
 <param id="secondaryColor"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439397" name="degreesRotateAndClamp" parent="solsticeView" startPc="268439325">
+<functionEntry accessMode="public" endPc="268439413" name="degreesRotateAndClamp" parent="solsticeView" startPc="268439341">
 <param id="degree"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439469" name="timerCallback" parent="solsticeView" startPc="268439398">
+<functionEntry accessMode="public" endPc="268439485" name="timerCallback" parent="solsticeView" startPc="268439414">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="private" endPc="268439673" name="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;" parent="solsticeView" startPc="268439470">
+<functionEntry accessMode="private" endPc="268439689" name="&lt;globals/solsticeView/&lt;&gt;updateWatchOverlay&gt;" parent="solsticeView" startPc="268439486">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Handle the partial update event<br/> <div class="param"> dc Device Context</div><br/></div>]]></documentation>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439730" name="onEnterSleep" parent="solsticeView" startPc="268439674">
+<functionEntry accessMode="public" endPc="268439746" name="onEnterSleep" parent="solsticeView" startPc="268439690">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439821" name="startTimer" parent="solsticeView" startPc="268439731">
+<functionEntry accessMode="public" endPc="268439837" name="startTimer" parent="solsticeView" startPc="268439747">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439842" name="initialize" parent="solsticeView" startPc="268439822">
+<functionEntry accessMode="public" endPc="268439858" name="initialize" parent="solsticeView" startPc="268439838">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onHide" parent="solsticeView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439887" name="onUpdate" parent="solsticeView" startPc="268439843">
+<functionEntry accessMode="public" endPc="268439903" name="onUpdate" parent="solsticeView" startPc="268439859">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439921" name="clamp" parent="solsticeView" startPc="268439888">
+<functionEntry accessMode="public" endPc="268439937" name="clamp" parent="solsticeView" startPc="268439904">
 <param id="v"/>
 <param id="a"/>
 <param id="b"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439947" name="getApp" startPc="268439922">
+<functionEntry accessMode="public" endPc="268439963" name="getApp" startPc="268439938">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439966" name="&lt;init&gt;" parent="Background" startPc="268439948">
+<functionEntry accessMode="public" endPc="268439982" name="&lt;init&gt;" parent="Background" startPc="268439964">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440012" name="initialize" parent="Background" startPc="268439967">
+<functionEntry accessMode="public" endPc="268440028" name="initialize" parent="Background" startPc="268439983">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440069" name="draw" parent="Background" startPc="268440013">
+<functionEntry accessMode="public" endPc="268440085" name="draw" parent="Background" startPc="268440029">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440093" name="&lt;init&gt;" parent="Rez" startPc="268440070">
+<functionEntry accessMode="public" endPc="268440109" name="&lt;init&gt;" parent="Rez" startPc="268440086">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440112" name="&lt;init&gt;" parent="solsticeApp" startPc="268440094">
+<functionEntry accessMode="public" endPc="268440128" name="&lt;init&gt;" parent="solsticeApp" startPc="268440110">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440115" name="onStart" parent="solsticeApp" startPc="268440113">
+<functionEntry accessMode="public" endPc="268440131" name="onStart" parent="solsticeApp" startPc="268440129">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440134" name="onSettingsChanged" parent="solsticeApp" startPc="268440116">
+<functionEntry accessMode="public" endPc="268440150" name="onSettingsChanged" parent="solsticeApp" startPc="268440132">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440177" name="getInitialView" parent="solsticeApp" startPc="268440135">
+<functionEntry accessMode="public" endPc="268440193" name="getInitialView" parent="solsticeApp" startPc="268440151">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440198" name="initialize" parent="solsticeApp" startPc="268440178">
+<functionEntry accessMode="public" endPc="268440214" name="initialize" parent="solsticeApp" startPc="268440194">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440201" name="onStop" parent="solsticeApp" startPc="268440199">
+<functionEntry accessMode="public" endPc="268440217" name="onStop" parent="solsticeApp" startPc="268440215">
 <param id="state"/>
 <documentation/>
 </functionEntry>
@@ -637,7 +639,7 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440258" name="WatchFace" parent="Layouts" startPc="268440202">
+<functionEntry accessMode="public" endPc="268440274" name="WatchFace" parent="Layouts" startPc="268440218">
 <param id="dc"/>
 <documentation/>
 </functionEntry>

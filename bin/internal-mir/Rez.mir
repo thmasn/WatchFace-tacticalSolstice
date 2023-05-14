@@ -43,13 +43,13 @@ module Rez {
 _Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_bin_gen_006_B3703_00_source_Rez_mcgen_19_73_start:
 [ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/bin/gen/006-B3703-00/source/Rez.mcgen" 20 12 ]
             [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_bin_gen_006_B3703_00_source_Rez_mcgen_19_73_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_bin_gen_006_B3703_00_source_Rez_mcgen_19_73_stop" ]
-            %rez_cmp_local_custom_drawable_91987051816283183171.1 = local;
+            %rez_cmp_local_custom_drawable_50338921101874574717.1 = local;
             %tmp.4 = getv ? :ArcLayer;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_91987051816283183171.1 %tmp.1;
+            lputv %rez_cmp_local_custom_drawable_50338921101874574717.1 %tmp.1;
 [ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/bin/gen/006-B3703-00/source/Rez.mcgen" 22 12 ]
             %tmp.5 = newa Array<WatchUi.Drawable> 1;
-            %tmp.7 = lgetv %rez_cmp_local_custom_drawable_91987051816283183171.1;
+            %tmp.7 = lgetv %rez_cmp_local_custom_drawable_50338921101874574717.1;
             %tmp.8 = dup %tmp.5;
             %tmp.9 = aputv %tmp.8 0 %tmp.7;
             ret %tmp.9;

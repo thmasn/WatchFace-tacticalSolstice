@@ -17,9 +17,9 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_91987051816283183171 = new ArcLayer();
+            var rez_cmp_local_custom_drawable_50338921101874574717 = new ArcLayer();
 
-            return [rez_cmp_local_custom_drawable_91987051816283183171] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_50338921101874574717] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
