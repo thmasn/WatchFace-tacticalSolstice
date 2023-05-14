@@ -80,7 +80,7 @@ class ArcLayer extends WatchUi.Drawable {
         	} else {
         		dc.setColor(secondaryColor, 0x000000);
         	}
-	        dc.drawArc(center, center, 94, 1,
+	        dc.drawArc(center, center, 94, Toybox.Graphics.ARC_CLOCKWISE,
 	        -(monthWidth*m+space)+90, 
 	        -(monthWidth*(m+1)-space)+90
 	        );
@@ -92,7 +92,7 @@ class ArcLayer extends WatchUi.Drawable {
         dc.setColor(0x000000, 0x000000);
         var pwidth = 45;
         dc.setPenWidth(pwidth);
-        dc.drawArc(center, center, center-pwidth/2, 1, 0, 360);
+        dc.drawArc(center, center, center-pwidth/2, Toybox.Graphics.ARC_CLOCKWISE, 0, 360);
     }
     function drawTime(dc as Dc, center, primaryColor, secondaryColor) as Void {
 		
@@ -102,9 +102,9 @@ class ArcLayer extends WatchUi.Drawable {
         var hours = clockTime.hour;
         var min = clockTime.min;
     	
-    	var filldirection = 1;
+    	var filldirection = Toybox.Graphics.ARC_CLOCKWISE;
         if (hours >= 12) {
-            filldirection = 0;
+            filldirection = Toybox.Graphics.ARC_COUNTER_CLOCKWISE;
         }
         if (hours > 12) {
             hours = hours - 12;
@@ -122,7 +122,7 @@ class ArcLayer extends WatchUi.Drawable {
         dc.setPenWidth(pwidth);
         dc.drawArc(center, center, center-pwidth/2, filldirection, 0, 360);
         
-        if(degrees != 90 or filldirection == 0){
+        if(degrees != 90 or filldirection == Toybox.Graphics.ARC_COUNTER_CLOCKWISE){
 	        dc.setColor(primaryColor, 0x000000);
 	        pwidth = 16;
 	        dc.setPenWidth(pwidth);
@@ -142,8 +142,8 @@ class ArcLayer extends WatchUi.Drawable {
         dc.setPenWidth(pwidth);
         dc.drawArc(center, center, minuteRadius-pwidth/2, filldirection, 0, 360);
         
-        filldirection = clockTime.hour%2 == 0;
-        if(degrees != 90 or filldirection == 0){
+        filldirection = (clockTime.hour%2 == 0)?Toybox.Graphics.ARC_COUNTER_CLOCKWISE : Toybox.Graphics.ARC_CLOCKWISE;
+        if(degrees != 90 or filldirection == Toybox.Graphics.ARC_COUNTER_CLOCKWISE){
 	        dc.setColor(primaryColor, 0x000000);
 	        pwidth = 3;
 	        dc.setPenWidth(pwidth);
