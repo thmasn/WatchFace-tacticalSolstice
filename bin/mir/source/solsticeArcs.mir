@@ -1,0 +1,923 @@
+[ @file = "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc"; @line = 5; ]
+using Toybox.Time.Gregorian;
+[ @file = "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc"; @line = 7; ]
+class ArcLayer extends WatchUi.Drawable{
+    [ @file = "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc"; @line = 9; ]
+    function initialize() as Void {
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_9_26_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 10 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_9_26_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_9_26_stop" ]
+        %dictionary.1 = local;
+        %tmp.1 = newd 1;
+        %tmp.3 = const :identifier;
+        %tmp.4 = "ArcLayer";
+        %tmp.5 = dup %tmp.1;
+        %tmp.6 = aputv %tmp.5 %tmp.3 %tmp.4;
+        lputv %dictionary.1 %tmp.6;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 14 8 ]
+        %tmp.8 = getv ? :Drawable;
+        %tmp.9 = getv function %tmp.8 :initialize;
+        %tmp.11 = lgetv %dictionary.1;
+        invoke %tmp.8 %tmp.9(%tmp.11);
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_9_26_stop:
+    }
+    [ @file = "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc"; @line = 17; ]
+    function degreesRotateAndClamp(degree) {
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_17_42_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 18 8 ]
+        %tmp.1 = 360;
+        %tmp.3 = lgetv %degree;
+        %tmp.4 = sub %tmp.1 %tmp.3;
+        lputv %degree %tmp.4;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 19 8 ]
+        %tmp.5 = lgetv %degree;
+        %tmp.6 = 90;
+        %tmp.7 = add %tmp.5 %tmp.6;
+        lputv %degree %tmp.7;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 20 8 ]
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_20_8_if_stmt:
+        %tmp.9 = lgetv %degree;
+        %tmp.10 = 260;
+        %tmp.11 = gt %tmp.9 %tmp.10;
+        bf %tmp.11 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_20_8_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_20_8_if_true:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_20_24_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 21 9 ]
+        %tmp.12 = lgetv %degree;
+        %tmp.13 = 360;
+        %tmp.14 = sub %tmp.12 %tmp.13;
+        lputv %degree %tmp.14;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_20_24_stop:
+        goto @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_20_8_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_20_8_if_end:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 23 8 ]
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_23_8_if_stmt:
+        %tmp.15 = 0;
+        %tmp.17 = lgetv %degree;
+        %tmp.18 = gt %tmp.15 %tmp.17;
+        bf %tmp.18 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_23_8_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_23_8_if_true:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_23_22_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 24 9 ]
+        %tmp.19 = lgetv %degree;
+        %tmp.20 = 360;
+        %tmp.21 = add %tmp.19 %tmp.20;
+        lputv %degree %tmp.21;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_23_22_stop:
+        goto @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_23_8_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_23_8_if_end:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 26 5 ]
+        %tmp.23 = lgetv %degree;
+        ret %tmp.23;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_17_42_stop:
+    }
+    [ @file = "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc"; @line = 28; ]
+    function drawMonth(dc as Dc, center, primaryColor, secondaryColor) as Void {
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 30 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_stop" ]
+        %date.1 = local;
+        %tmp.1 = getm $.Toybox.Time.Gregorian;
+        %tmp.2 = getv function %tmp.1 :info;
+        %tmp.4 = getv ? :Time;
+        %tmp.5 = getv function %tmp.4 :now;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        %tmp.8 = getv ? :Time;
+        %tmp.9 = getv %tmp.8 :FORMAT_SHORT;
+        %tmp.10 = invoke %tmp.1 %tmp.2(%tmp.6, %tmp.9);
+        lputv %date.1 %tmp.10;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 31 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_stop" ]
+        %weekDay.2 = local;
+        %tmp.11 = lgetv %date.1;
+        %tmp.12 = getv %tmp.11 :day_of_week;
+        %tmp.13 = 2;
+        %tmp.14 = sub %tmp.12 %tmp.13;
+        lputv %weekDay.2 %tmp.14;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 32 8 ]
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_32_8_if_stmt:
+        %tmp.15 = 0;
+        %tmp.17 = lgetv %weekDay.2;
+        %tmp.18 = gt %tmp.15 %tmp.17;
+        bf %tmp.18 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_32_8_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_32_8_if_true:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_32_23_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 33 9 ]
+        %tmp.19 = lgetv %weekDay.2;
+        %tmp.20 = 7;
+        %tmp.21 = add %tmp.19 %tmp.20;
+        lputv %weekDay.2 %tmp.21;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_32_23_stop:
+        goto @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_32_8_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_32_8_if_end:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 38 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_stop" ]
+        %month.3 = local;
+        %tmp.22 = lgetv %date.1;
+        %tmp.23 = getv %tmp.22 :month;
+        lputv %month.3 %tmp.23;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 39 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_stop" ]
+        %monthDuration.4 = local;
+        %tmp.24 = newa 12;
+        %tmp.25 = 31;
+        %tmp.26 = dup %tmp.24;
+        %tmp.27 = aputv %tmp.26 0 %tmp.25;
+        %tmp.28 = 29;
+        %tmp.29 = dup %tmp.27;
+        %tmp.30 = aputv %tmp.29 1 %tmp.28;
+        %tmp.31 = 31;
+        %tmp.32 = dup %tmp.30;
+        %tmp.33 = aputv %tmp.32 2 %tmp.31;
+        %tmp.34 = 30;
+        %tmp.35 = dup %tmp.33;
+        %tmp.36 = aputv %tmp.35 3 %tmp.34;
+        %tmp.37 = 31;
+        %tmp.38 = dup %tmp.36;
+        %tmp.39 = aputv %tmp.38 4 %tmp.37;
+        %tmp.40 = 30;
+        %tmp.41 = dup %tmp.39;
+        %tmp.42 = aputv %tmp.41 5 %tmp.40;
+        %tmp.43 = 31;
+        %tmp.44 = dup %tmp.42;
+        %tmp.45 = aputv %tmp.44 6 %tmp.43;
+        %tmp.46 = 31;
+        %tmp.47 = dup %tmp.45;
+        %tmp.48 = aputv %tmp.47 7 %tmp.46;
+        %tmp.49 = 30;
+        %tmp.50 = dup %tmp.48;
+        %tmp.51 = aputv %tmp.50 8 %tmp.49;
+        %tmp.52 = 31;
+        %tmp.53 = dup %tmp.51;
+        %tmp.54 = aputv %tmp.53 9 %tmp.52;
+        %tmp.55 = 30;
+        %tmp.56 = dup %tmp.54;
+        %tmp.57 = aputv %tmp.56 10 %tmp.55;
+        %tmp.58 = 31;
+        %tmp.59 = dup %tmp.57;
+        %tmp.60 = aputv %tmp.59 11 %tmp.58;
+        lputv %monthDuration.4 %tmp.60;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 40 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_stop" ]
+        %currMonthDuration.5 = local;
+        %tmp.62 = lgetv %monthDuration.4;
+        %tmp.64 = lgetv %month.3;
+        %tmp.65 = 1;
+        %tmp.66 = sub %tmp.64 %tmp.65;
+        %tmp.67 = agetv %tmp.62 %tmp.66;
+        lputv %currMonthDuration.5 %tmp.67;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 42 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_stop" ]
+        %day.6 = local;
+        %tmp.68 = lgetv %date.1;
+        %tmp.69 = getv %tmp.68 :day;
+        lputv %day.6 %tmp.69;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 45 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_stop" ]
+        %firstDayOfWeekInMonth.7 = local;
+        %tmp.71 = lgetv %weekDay.2;
+        %tmp.73 = lgetv %day.6;
+        %tmp.74 = 1;
+        %tmp.75 = sub %tmp.73 %tmp.74;
+        %tmp.76 = sub %tmp.71 %tmp.75;
+        %tmp.77 = 35;
+        %tmp.78 = add %tmp.76 %tmp.77;
+        %tmp.79 = 7;
+        %tmp.80 = mod %tmp.78 %tmp.79;
+        lputv %firstDayOfWeekInMonth.7 %tmp.80;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 48 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_stop" ]
+        %dayWidth.8 = local;
+        %tmp.81 = 14;
+        lputv %dayWidth.8 %tmp.81;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 49 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_stop" ]
+        %dayHeight.9 = local;
+        %tmp.82 = 14;
+        lputv %dayHeight.9 %tmp.82;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 50 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_stop" ]
+        %offsetX.10 = local;
+        %tmp.84 = lgetv %dayWidth.8;
+        %tmp.85 = sub 0 %tmp.84;
+        %tmp.86 = 3;
+        %tmp.87 = mul %tmp.85 %tmp.86;
+        lputv %offsetX.10 %tmp.87;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 51 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_stop" ]
+        %offsetY.11 = local;
+        %tmp.89 = lgetv %dayHeight.9;
+        %tmp.90 = sub 0 %tmp.89;
+        %tmp.91 = 2;
+        %tmp.92 = mul %tmp.90 %tmp.91;
+        lputv %offsetY.11 %tmp.92;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 53 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_stop" ]
+        %curWeek.12 = local;
+        %tmp.93 = 0;
+        lputv %curWeek.12 %tmp.93;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 54 8 ]
+        for @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_54_8_for_test @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_54_8_for_incr @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_54_8_for_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_54_8_for_init:
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_54_8_for_begin" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_54_8_for_end" ]
+        %d.13 = local;
+        %tmp.94 = 1;
+        lputv %d.13 %tmp.94;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_54_8_for_test:
+        %tmp.96 = lgetv %d.13;
+        %tmp.98 = lgetv %currMonthDuration.5;
+        %tmp.99 = lte %tmp.96 %tmp.98;
+        bf %tmp.99 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_54_8_for_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_54_8_for_begin:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_54_51_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 55 9 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_54_51_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_54_51_stop" ]
+        %curDayOfWeek.14 = local;
+        %tmp.101 = lgetv %firstDayOfWeekInMonth.7;
+        %tmp.103 = lgetv %d.13;
+        %tmp.104 = add %tmp.101 %tmp.103;
+        %tmp.105 = 1;
+        %tmp.106 = sub %tmp.104 %tmp.105;
+        %tmp.107 = 7;
+        %tmp.108 = mod %tmp.106 %tmp.107;
+        lputv %curDayOfWeek.14 %tmp.108;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 56 9 ]
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_56_9_if_stmt:
+        %tmp.110 = lgetv %d.13;
+        %tmp.112 = lgetv %day.6;
+        %tmp.113 = eq %tmp.110 %tmp.112;
+        bf %tmp.113 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_56_9_if_false;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_56_9_if_true:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_56_21_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 57 10 ]
+        %tmp.114 = lgetv %dc;
+        %tmp.115 = getv function %tmp.114 :setColor;
+        %tmp.117 = lgetv %primaryColor;
+        %tmp.118 = 0x000000;
+        invoke %tmp.114 %tmp.115(%tmp.117, %tmp.118);
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_56_21_stop:
+        goto @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_56_9_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_56_9_if_false:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_59_16_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 60 10 ]
+        %tmp.119 = lgetv %dc;
+        %tmp.120 = getv function %tmp.119 :setColor;
+        %tmp.122 = lgetv %secondaryColor;
+        %tmp.123 = 0x000000;
+        invoke %tmp.119 %tmp.120(%tmp.122, %tmp.123);
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_59_16_stop:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_56_9_if_end:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 62 9 ]
+        %tmp.124 = lgetv %dc;
+        %tmp.125 = getv function %tmp.124 :fillCircle;
+        %tmp.127 = lgetv %center;
+        %tmp.129 = lgetv %offsetX.10;
+        %tmp.130 = add %tmp.127 %tmp.129;
+        %tmp.132 = lgetv %dayWidth.8;
+        %tmp.134 = lgetv %curDayOfWeek.14;
+        %tmp.135 = mul %tmp.132 %tmp.134;
+        %tmp.136 = add %tmp.130 %tmp.135;
+        %tmp.138 = lgetv %center;
+        %tmp.140 = lgetv %offsetY.11;
+        %tmp.141 = add %tmp.138 %tmp.140;
+        %tmp.143 = lgetv %dayHeight.9;
+        %tmp.145 = lgetv %curWeek.12;
+        %tmp.146 = mul %tmp.143 %tmp.145;
+        %tmp.147 = add %tmp.141 %tmp.146;
+        %tmp.148 = 2;
+        invoke %tmp.124 %tmp.125(%tmp.136, %tmp.147, %tmp.148);
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 65 9 ]
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_65_9_if_stmt:
+        %tmp.150 = lgetv %curDayOfWeek.14;
+        %tmp.151 = 6;
+        %tmp.152 = eq %tmp.150 %tmp.151;
+        bf %tmp.152 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_65_9_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_65_9_if_true:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_65_30_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 66 10 ]
+        %tmp.155 = lgetv %curWeek.12;
+        %tmp.156 = add %tmp.155 1;
+        lputv %curWeek.12 %tmp.156;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_65_30_stop:
+        goto @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_65_9_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_65_9_if_end:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_54_51_stop:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_54_8_for_incr:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 54 ]
+        %tmp.159 = lgetv %d.13;
+        %tmp.160 = add %tmp.159 1;
+        lputv %d.13 %tmp.160;
+        goto @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_54_8_for_test;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_54_8_for_end:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 72 8 ]
+        %tmp.161 = lgetv %dc;
+        %tmp.162 = getv function %tmp.161 :setPenWidth;
+        %tmp.163 = 3;
+        invoke %tmp.161 %tmp.162(%tmp.163);
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 73 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_stop" ]
+        %space.15 = local;
+        %tmp.164 = 4;
+        lputv %space.15 %tmp.164;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 74 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_stop" ]
+        %monthWidth.16 = local;
+        %tmp.165 = 360;
+        %tmp.166 = 12;
+        %tmp.167 = div %tmp.165 %tmp.166;
+        lputv %monthWidth.16 %tmp.167;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 75 8 ]
+        for @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_75_8_for_test @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_75_8_for_incr @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_75_8_for_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_75_8_for_init:
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_75_8_for_begin" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_75_8_for_end" ]
+        %m.17 = local;
+        %tmp.168 = 0;
+        lputv %m.17 %tmp.168;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_75_8_for_test:
+        %tmp.170 = lgetv %m.17;
+        %tmp.171 = 12;
+        %tmp.172 = lt %tmp.170 %tmp.171;
+        bf %tmp.172 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_75_8_for_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_75_8_for_begin:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_75_35_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 77 9 ]
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_77_9_if_stmt:
+        %tmp.174 = lgetv %m.17;
+        %tmp.176 = lgetv %month.3;
+        %tmp.177 = 1;
+        %tmp.178 = sub %tmp.176 %tmp.177;
+        %tmp.179 = eq %tmp.174 %tmp.178;
+        bf %tmp.179 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_77_9_if_false;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_77_9_if_true:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_77_25_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 78 10 ]
+        %tmp.180 = lgetv %dc;
+        %tmp.181 = getv function %tmp.180 :setColor;
+        %tmp.183 = lgetv %primaryColor;
+        %tmp.184 = 0x000000;
+        invoke %tmp.180 %tmp.181(%tmp.183, %tmp.184);
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_77_25_stop:
+        goto @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_77_9_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_77_9_if_false:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_80_16_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 81 10 ]
+        %tmp.185 = lgetv %dc;
+        %tmp.186 = getv function %tmp.185 :setColor;
+        %tmp.188 = lgetv %secondaryColor;
+        %tmp.189 = 0x000000;
+        invoke %tmp.185 %tmp.186(%tmp.188, %tmp.189);
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_80_16_stop:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_77_9_if_end:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 83 9 ]
+        %tmp.190 = lgetv %dc;
+        %tmp.191 = getv function %tmp.190 :drawArc;
+        %tmp.193 = lgetv %center;
+        %tmp.195 = lgetv %center;
+        %tmp.196 = 94;
+        %tmp.197 = getm $.Toybox.Graphics;
+        %tmp.198 = getv %tmp.197 :ARC_CLOCKWISE;
+        %tmp.200 = lgetv %monthWidth.16;
+        %tmp.202 = lgetv %m.17;
+        %tmp.203 = mul %tmp.200 %tmp.202;
+        %tmp.205 = lgetv %space.15;
+        %tmp.206 = add %tmp.203 %tmp.205;
+        %tmp.207 = sub 0 %tmp.206;
+        %tmp.208 = 90;
+        %tmp.209 = add %tmp.207 %tmp.208;
+        %tmp.211 = lgetv %monthWidth.16;
+        %tmp.213 = lgetv %m.17;
+        %tmp.214 = 1;
+        %tmp.215 = add %tmp.213 %tmp.214;
+        %tmp.216 = mul %tmp.211 %tmp.215;
+        %tmp.218 = lgetv %space.15;
+        %tmp.219 = sub %tmp.216 %tmp.218;
+        %tmp.220 = sub 0 %tmp.219;
+        %tmp.221 = 90;
+        %tmp.222 = add %tmp.220 %tmp.221;
+        invoke %tmp.190 %tmp.191(%tmp.193, %tmp.195, %tmp.196, %tmp.198, %tmp.209, %tmp.222);
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_75_35_stop:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_75_8_for_incr:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 75 ]
+        %tmp.225 = lgetv %m.17;
+        %tmp.226 = add %tmp.225 1;
+        lputv %m.17 %tmp.226;
+        goto @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_75_8_for_test;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_75_8_for_end:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_28_79_stop:
+    }
+    [ @file = "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc"; @line = 90; ]
+    function clearTime(dc as Dc, center, primaryColor, secondaryColor) as Void {
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_90_79_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 92 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.3 = 0x000000;
+        %tmp.4 = 0x000000;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4);
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 93 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_90_79_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_90_79_stop" ]
+        %pwidth.1 = local;
+        %tmp.5 = 45;
+        lputv %pwidth.1 %tmp.5;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 94 8 ]
+        %tmp.6 = lgetv %dc;
+        %tmp.7 = getv function %tmp.6 :setPenWidth;
+        %tmp.9 = lgetv %pwidth.1;
+        invoke %tmp.6 %tmp.7(%tmp.9);
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 95 8 ]
+        %tmp.10 = lgetv %dc;
+        %tmp.11 = getv function %tmp.10 :drawArc;
+        %tmp.13 = lgetv %center;
+        %tmp.15 = lgetv %center;
+        %tmp.17 = lgetv %center;
+        %tmp.19 = lgetv %pwidth.1;
+        %tmp.20 = 2;
+        %tmp.21 = div %tmp.19 %tmp.20;
+        %tmp.22 = sub %tmp.17 %tmp.21;
+        %tmp.23 = getm $.Toybox.Graphics;
+        %tmp.24 = getv %tmp.23 :ARC_CLOCKWISE;
+        %tmp.25 = 0;
+        %tmp.26 = 360;
+        invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15, %tmp.22, %tmp.24, %tmp.25, %tmp.26);
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_90_79_stop:
+    }
+    [ @file = "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc"; @line = 97; ]
+    function drawTime(dc as Dc, center, primaryColor, secondaryColor) as Void {
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 99 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_stop" ]
+        %pwidth.1 = local;
+        %tmp.1 = 1;
+        lputv %pwidth.1 %tmp.1;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 101 5 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_stop" ]
+        %clockTime.2 = local;
+        %tmp.3 = getv ? :System;
+        %tmp.4 = getv function %tmp.3 :getClockTime;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        lputv %clockTime.2 %tmp.5;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 102 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_stop" ]
+        %hours.3 = local;
+        %tmp.6 = lgetv %clockTime.2;
+        %tmp.7 = getv %tmp.6 :hour;
+        lputv %hours.3 %tmp.7;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 103 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_stop" ]
+        %min.4 = local;
+        %tmp.8 = lgetv %clockTime.2;
+        %tmp.9 = getv %tmp.8 :min;
+        lputv %min.4 %tmp.9;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 105 5 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_stop" ]
+        %filldirection.5 = local;
+        %tmp.10 = getm $.Toybox.Graphics;
+        %tmp.11 = getv %tmp.10 :ARC_CLOCKWISE;
+        lputv %filldirection.5 %tmp.11;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 106 8 ]
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_106_8_if_stmt:
+        %tmp.13 = lgetv %hours.3;
+        %tmp.14 = 12;
+        %tmp.15 = gte %tmp.13 %tmp.14;
+        bf %tmp.15 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_106_8_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_106_8_if_true:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_106_25_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 107 12 ]
+        %tmp.16 = getm $.Toybox.Graphics;
+        %tmp.17 = getv %tmp.16 :ARC_COUNTER_CLOCKWISE;
+        lputv %filldirection.5 %tmp.17;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_106_25_stop:
+        goto @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_106_8_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_106_8_if_end:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 109 8 ]
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_109_8_if_stmt:
+        %tmp.19 = lgetv %hours.3;
+        %tmp.20 = 12;
+        %tmp.21 = gt %tmp.19 %tmp.20;
+        bf %tmp.21 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_109_8_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_109_8_if_true:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_109_24_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 110 12 ]
+        %tmp.23 = lgetv %hours.3;
+        %tmp.24 = 12;
+        %tmp.25 = sub %tmp.23 %tmp.24;
+        lputv %hours.3 %tmp.25;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_109_24_stop:
+        goto @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_109_8_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_109_8_if_end:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 113 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_stop" ]
+        %degrees.6 = local;
+        %tmp.26 = 360;
+        %tmp.28 = lgetv %hours.3;
+        %tmp.29 = mul %tmp.26 %tmp.28;
+        %tmp.30 = 12;
+        %tmp.31 = div %tmp.29 %tmp.30;
+        lputv %degrees.6 %tmp.31;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 114 8 ]
+        %tmp.32 = lgetv %degrees.6;
+        %tmp.34 = lgetv %min.4;
+        %tmp.35 = 360;
+        %tmp.36 = mul %tmp.34 %tmp.35;
+        %tmp.37 = 60;
+        %tmp.38 = div %tmp.36 %tmp.37;
+        %tmp.39 = 12;
+        %tmp.40 = div %tmp.38 %tmp.39;
+        %tmp.41 = add %tmp.32 %tmp.40;
+        lputv %degrees.6 %tmp.41;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 115 8 ]
+        %tmp.42 = self;
+        %tmp.43 = getv function %tmp.42 :degreesRotateAndClamp;
+        %tmp.45 = lgetv %degrees.6;
+        %tmp.46 = invoke %tmp.42 %tmp.43(%tmp.45);
+        lputv %degrees.6 %tmp.46;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 120 8 ]
+        %tmp.47 = lgetv %dc;
+        %tmp.48 = getv function %tmp.47 :setColor;
+        %tmp.50 = lgetv %secondaryColor;
+        %tmp.51 = 0x000000;
+        invoke %tmp.47 %tmp.48(%tmp.50, %tmp.51);
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 121 8 ]
+        %tmp.52 = 6;
+        lputv %pwidth.1 %tmp.52;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 122 8 ]
+        %tmp.53 = lgetv %dc;
+        %tmp.54 = getv function %tmp.53 :setPenWidth;
+        %tmp.56 = lgetv %pwidth.1;
+        invoke %tmp.53 %tmp.54(%tmp.56);
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 123 8 ]
+        %tmp.57 = lgetv %dc;
+        %tmp.58 = getv function %tmp.57 :drawArc;
+        %tmp.60 = lgetv %center;
+        %tmp.62 = lgetv %center;
+        %tmp.64 = lgetv %center;
+        %tmp.66 = lgetv %pwidth.1;
+        %tmp.67 = 2;
+        %tmp.68 = div %tmp.66 %tmp.67;
+        %tmp.69 = sub %tmp.64 %tmp.68;
+        %tmp.71 = lgetv %filldirection.5;
+        %tmp.72 = 0;
+        %tmp.73 = 360;
+        invoke %tmp.57 %tmp.58(%tmp.60, %tmp.62, %tmp.69, %tmp.71, %tmp.72, %tmp.73);
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 125 8 ]
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_125_8_if_stmt:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_125_11_begin:
+        %tmp.75 = lgetv %degrees.6;
+        %tmp.76 = 90;
+        %tmp.77 = ne %tmp.75 %tmp.76;
+        %tmp.78 = dup %tmp.77;
+        bt %tmp.78 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_125_28_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_125_28_false:
+        %tmp.80 = lgetv %filldirection.5;
+        %tmp.81 = getm $.Toybox.Graphics;
+        %tmp.82 = getv %tmp.81 :ARC_COUNTER_CLOCKWISE;
+        %tmp.83 = eq %tmp.80 %tmp.82;
+        %tmp.84 = or %tmp.77 %tmp.83;
+        push %tmp.84;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_125_28_end:
+        %tmp.85 = phi [%tmp.78 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_125_11_begin] [%tmp.84 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_125_28_false] [%tmp.85 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_125_28_end];
+        bf %tmp.85 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_125_8_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_125_8_if_true:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_125_83_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 126 9 ]
+        %tmp.86 = lgetv %dc;
+        %tmp.87 = getv function %tmp.86 :setColor;
+        %tmp.89 = lgetv %primaryColor;
+        %tmp.90 = 0x000000;
+        invoke %tmp.86 %tmp.87(%tmp.89, %tmp.90);
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 127 9 ]
+        %tmp.91 = 16;
+        lputv %pwidth.1 %tmp.91;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 128 9 ]
+        %tmp.92 = lgetv %dc;
+        %tmp.93 = getv function %tmp.92 :setPenWidth;
+        %tmp.95 = lgetv %pwidth.1;
+        invoke %tmp.92 %tmp.93(%tmp.95);
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 129 9 ]
+        %tmp.96 = lgetv %dc;
+        %tmp.97 = getv function %tmp.96 :drawArc;
+        %tmp.99 = lgetv %center;
+        %tmp.101 = lgetv %center;
+        %tmp.103 = lgetv %center;
+        %tmp.105 = lgetv %pwidth.1;
+        %tmp.106 = 2;
+        %tmp.107 = div %tmp.105 %tmp.106;
+        %tmp.108 = sub %tmp.103 %tmp.107;
+        %tmp.110 = lgetv %filldirection.5;
+        %tmp.111 = 90;
+        %tmp.113 = lgetv %degrees.6;
+        invoke %tmp.96 %tmp.97(%tmp.99, %tmp.101, %tmp.108, %tmp.110, %tmp.111, %tmp.113);
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_125_83_stop:
+        goto @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_125_8_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_125_8_if_end:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 134 8 ]
+        %tmp.115 = lgetv %min.4;
+        %tmp.116 = 360;
+        %tmp.117 = mul %tmp.115 %tmp.116;
+        %tmp.118 = 60;
+        %tmp.119 = div %tmp.117 %tmp.118;
+        lputv %degrees.6 %tmp.119;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 135 8 ]
+        %tmp.120 = lgetv %degrees.6;
+        %tmp.121 = lgetv %clockTime.2;
+        %tmp.122 = getv %tmp.121 :sec;
+        %tmp.123 = 360;
+        %tmp.124 = mul %tmp.122 %tmp.123;
+        %tmp.125 = 60;
+        %tmp.126 = div %tmp.124 %tmp.125;
+        %tmp.127 = 60;
+        %tmp.128 = div %tmp.126 %tmp.127;
+        %tmp.129 = add %tmp.120 %tmp.128;
+        lputv %degrees.6 %tmp.129;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 136 8 ]
+        %tmp.130 = self;
+        %tmp.131 = getv function %tmp.130 :degreesRotateAndClamp;
+        %tmp.133 = lgetv %degrees.6;
+        %tmp.134 = invoke %tmp.130 %tmp.131(%tmp.133);
+        lputv %degrees.6 %tmp.134;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 138 5 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_stop" ]
+        %minuteRadius.7 = local;
+        %tmp.135 = lgetv %dc;
+        %tmp.136 = getv function %tmp.135 :getWidth;
+        %tmp.137 = invoke %tmp.135 %tmp.136();
+        %tmp.138 = 2;
+        %tmp.139 = div %tmp.137 %tmp.138;
+        %tmp.140 = 30;
+        %tmp.141 = sub %tmp.139 %tmp.140;
+        lputv %minuteRadius.7 %tmp.141;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 140 8 ]
+        %tmp.142 = lgetv %dc;
+        %tmp.143 = getv function %tmp.142 :setColor;
+        %tmp.145 = lgetv %secondaryColor;
+        %tmp.146 = 0x000000;
+        invoke %tmp.142 %tmp.143(%tmp.145, %tmp.146);
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 141 8 ]
+        %tmp.147 = 3;
+        lputv %pwidth.1 %tmp.147;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 142 8 ]
+        %tmp.148 = lgetv %dc;
+        %tmp.149 = getv function %tmp.148 :setPenWidth;
+        %tmp.151 = lgetv %pwidth.1;
+        invoke %tmp.148 %tmp.149(%tmp.151);
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 143 8 ]
+        %tmp.152 = lgetv %dc;
+        %tmp.153 = getv function %tmp.152 :drawArc;
+        %tmp.155 = lgetv %center;
+        %tmp.157 = lgetv %center;
+        %tmp.159 = lgetv %minuteRadius.7;
+        %tmp.161 = lgetv %pwidth.1;
+        %tmp.162 = 2;
+        %tmp.163 = div %tmp.161 %tmp.162;
+        %tmp.164 = sub %tmp.159 %tmp.163;
+        %tmp.166 = lgetv %filldirection.5;
+        %tmp.167 = 0;
+        %tmp.168 = 360;
+        invoke %tmp.152 %tmp.153(%tmp.155, %tmp.157, %tmp.164, %tmp.166, %tmp.167, %tmp.168);
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 145 8 ]
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_145_24_begin:
+        %tmp.169 = lgetv %clockTime.2;
+        %tmp.170 = getv %tmp.169 :hour;
+        %tmp.171 = 2;
+        %tmp.172 = mod %tmp.170 %tmp.171;
+        %tmp.173 = 0;
+        %tmp.174 = eq %tmp.172 %tmp.173;
+        bf %tmp.174 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_145_24_false;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_145_24_true:
+        %tmp.175 = getm $.Toybox.Graphics;
+        %tmp.176 = getv %tmp.175 :ARC_COUNTER_CLOCKWISE;
+        push %tmp.176;
+        goto @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_145_24_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_145_24_false:
+        %tmp.177 = getm $.Toybox.Graphics;
+        %tmp.178 = getv %tmp.177 :ARC_CLOCKWISE;
+        push %tmp.178;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_145_24_end:
+        %tmp.179 = phi [%tmp.174 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_145_24_begin] [%tmp.176 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_145_24_true] [%tmp.178 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_145_24_false] [%tmp.179 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_145_24_end];
+        lputv %filldirection.5 %tmp.179;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 146 8 ]
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_146_8_if_stmt:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_146_11_begin:
+        %tmp.181 = lgetv %degrees.6;
+        %tmp.182 = 90;
+        %tmp.183 = ne %tmp.181 %tmp.182;
+        %tmp.184 = dup %tmp.183;
+        bt %tmp.184 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_146_28_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_146_28_false:
+        %tmp.186 = lgetv %filldirection.5;
+        %tmp.187 = getm $.Toybox.Graphics;
+        %tmp.188 = getv %tmp.187 :ARC_COUNTER_CLOCKWISE;
+        %tmp.189 = eq %tmp.186 %tmp.188;
+        %tmp.190 = or %tmp.183 %tmp.189;
+        push %tmp.190;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_146_28_end:
+        %tmp.191 = phi [%tmp.184 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_146_11_begin] [%tmp.190 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_146_28_false] [%tmp.191 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_146_28_end];
+        bf %tmp.191 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_146_8_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_146_8_if_true:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_146_83_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 147 9 ]
+        %tmp.192 = lgetv %dc;
+        %tmp.193 = getv function %tmp.192 :setColor;
+        %tmp.195 = lgetv %primaryColor;
+        %tmp.196 = 0x000000;
+        invoke %tmp.192 %tmp.193(%tmp.195, %tmp.196);
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 148 9 ]
+        %tmp.197 = 3;
+        lputv %pwidth.1 %tmp.197;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 149 9 ]
+        %tmp.198 = lgetv %dc;
+        %tmp.199 = getv function %tmp.198 :setPenWidth;
+        %tmp.201 = lgetv %pwidth.1;
+        invoke %tmp.198 %tmp.199(%tmp.201);
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 150 9 ]
+        %tmp.202 = lgetv %dc;
+        %tmp.203 = getv function %tmp.202 :drawArc;
+        %tmp.205 = lgetv %center;
+        %tmp.207 = lgetv %center;
+        %tmp.209 = lgetv %minuteRadius.7;
+        %tmp.211 = lgetv %pwidth.1;
+        %tmp.212 = 2;
+        %tmp.213 = div %tmp.211 %tmp.212;
+        %tmp.214 = sub %tmp.209 %tmp.213;
+        %tmp.216 = lgetv %filldirection.5;
+        %tmp.217 = 90;
+        %tmp.219 = lgetv %degrees.6;
+        invoke %tmp.202 %tmp.203(%tmp.205, %tmp.207, %tmp.214, %tmp.216, %tmp.217, %tmp.219);
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_146_83_stop:
+        goto @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_146_8_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_146_8_if_end:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 154 5 ]
+        %tmp.220 = lgetv %dc;
+        %tmp.221 = getv function %tmp.220 :setPenWidth;
+        %tmp.222 = 5;
+        invoke %tmp.220 %tmp.221(%tmp.222);
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 155 8 ]
+        %tmp.223 = lgetv %dc;
+        %tmp.224 = getv function %tmp.223 :setColor;
+        %tmp.225 = 0x000000;
+        %tmp.226 = 0x000000;
+        invoke %tmp.223 %tmp.224(%tmp.225, %tmp.226);
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 156 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_stop" ]
+        %outerRadius.8 = local;
+        %tmp.228 = lgetv %center;
+        lputv %outerRadius.8 %tmp.228;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 157 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_stop" ]
+        %innerRadius.9 = local;
+        %tmp.230 = lgetv %center;
+        %tmp.231 = 2;
+        %tmp.232 = sub %tmp.230 %tmp.231;
+        lputv %innerRadius.9 %tmp.232;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 158 8 ]
+        for @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_8_for_test @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_8_for_incr @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_8_for_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_8_for_init:
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_8_for_begin" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_8_for_end" ]
+        %i.10 = local;
+        %tmp.233 = 0;
+        lputv %i.10 %tmp.233;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_8_for_test:
+        %tmp.235 = lgetv %i.10;
+        %tmp.236 = 12;
+        %tmp.237 = lt %tmp.235 %tmp.236;
+        bf %tmp.237 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_8_for_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_8_for_begin:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_35_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 159 9 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_35_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_35_stop" ]
+        %angle.11 = local;
+        %tmp.239 = lgetv %i.10;
+        %tmp.240 = 12.0;
+        %tmp.241 = div %tmp.239 %tmp.240;
+        %tmp.243 = getv ? :Math;
+        %tmp.244 = getv %tmp.243 :PI;
+        %tmp.245 = mul %tmp.241 %tmp.244;
+        %tmp.246 = 2;
+        %tmp.247 = mul %tmp.245 %tmp.246;
+        lputv %angle.11 %tmp.247;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 160 9 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_35_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_35_stop" ]
+        %cos.12 = local;
+        %tmp.249 = getv ? :Math;
+        %tmp.250 = getv function %tmp.249 :cos;
+        %tmp.252 = lgetv %angle.11;
+        %tmp.253 = invoke %tmp.249 %tmp.250(%tmp.252);
+        lputv %cos.12 %tmp.253;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 161 9 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_35_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_35_stop" ]
+        %sin.13 = local;
+        %tmp.255 = getv ? :Math;
+        %tmp.256 = getv function %tmp.255 :sin;
+        %tmp.258 = lgetv %angle.11;
+        %tmp.259 = invoke %tmp.255 %tmp.256(%tmp.258);
+        lputv %sin.13 %tmp.259;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 162 9 ]
+        %tmp.260 = lgetv %dc;
+        %tmp.261 = getv function %tmp.260 :drawLine;
+        %tmp.263 = lgetv %center;
+        %tmp.265 = lgetv %innerRadius.9;
+        %tmp.267 = lgetv %sin.13;
+        %tmp.268 = mul %tmp.265 %tmp.267;
+        %tmp.269 = add %tmp.263 %tmp.268;
+        %tmp.271 = lgetv %center;
+        %tmp.273 = lgetv %innerRadius.9;
+        %tmp.275 = lgetv %cos.12;
+        %tmp.276 = mul %tmp.273 %tmp.275;
+        %tmp.277 = add %tmp.271 %tmp.276;
+        %tmp.279 = lgetv %center;
+        %tmp.281 = lgetv %outerRadius.8;
+        %tmp.283 = lgetv %sin.13;
+        %tmp.284 = mul %tmp.281 %tmp.283;
+        %tmp.285 = add %tmp.279 %tmp.284;
+        %tmp.287 = lgetv %center;
+        %tmp.289 = lgetv %outerRadius.8;
+        %tmp.291 = lgetv %cos.12;
+        %tmp.292 = mul %tmp.289 %tmp.291;
+        %tmp.293 = add %tmp.287 %tmp.292;
+        invoke %tmp.260 %tmp.261(%tmp.269, %tmp.277, %tmp.285, %tmp.293);
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_35_stop:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_8_for_incr:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 158 ]
+        %tmp.296 = lgetv %i.10;
+        %tmp.297 = add %tmp.296 1;
+        lputv %i.10 %tmp.297;
+        goto @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_8_for_test;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_158_8_for_end:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_97_78_stop:
+    }
+    [ @file = "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc"; @line = 171; ]
+    function draw(dc as Dc) as Void {
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_171_36_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 175 5 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_171_36_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_171_36_stop" ]
+        %primaryColor.1 = local;
+        %tmp.1 = 0xFFFFFF;
+        lputv %primaryColor.1 %tmp.1;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 176 5 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_171_36_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_171_36_stop" ]
+        %secondaryColor.2 = local;
+        %tmp.2 = 0x2F73B5;
+        lputv %secondaryColor.2 %tmp.2;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 177 8 ]
+        [ "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_171_36_start" "_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_171_36_stop" ]
+        %center.3 = local;
+        %tmp.3 = lgetv %dc;
+        %tmp.4 = getv function %tmp.3 :getWidth;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        %tmp.6 = 2;
+        %tmp.7 = div %tmp.5 %tmp.6;
+        lputv %center.3 %tmp.7;
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 179 5 ]
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_179_5_if_stmt:
+        %tmp.9 = lgetv %dc;
+        %tmp.11 = const :setAntiAlias;
+        %tmp.12 = canhazplz %tmp.9 %tmp.11;
+        bf %tmp.12 @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_179_5_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_179_5_if_true:
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_179_30_start:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 180 9 ]
+        %tmp.13 = lgetv %dc;
+        %tmp.14 = as %tmp.13 { (interface { var setAntiAlias; }) };
+        %tmp.15 = getv function %tmp.14 :setAntiAlias;
+        %tmp.16 = true;
+        invoke %tmp.14 %tmp.15(%tmp.16);
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_179_30_stop:
+        goto @_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_179_5_if_end;
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_179_5_if_end:
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 183 5 ]
+        %tmp.17 = self;
+        %tmp.18 = getv function %tmp.17 :drawMonth;
+        %tmp.20 = lgetv %dc;
+        %tmp.22 = lgetv %center.3;
+        %tmp.24 = lgetv %primaryColor.1;
+        %tmp.26 = lgetv %secondaryColor.2;
+        invoke %tmp.17 %tmp.18(%tmp.20, %tmp.22, %tmp.24, %tmp.26);
+[ "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc" 185 5 ]
+        %tmp.27 = self;
+        %tmp.28 = getv function %tmp.27 :drawTime;
+        %tmp.30 = lgetv %dc;
+        %tmp.32 = lgetv %center.3;
+        %tmp.34 = lgetv %primaryColor.1;
+        %tmp.36 = lgetv %secondaryColor.2;
+        invoke %tmp.27 %tmp.28(%tmp.30, %tmp.32, %tmp.34, %tmp.36);
+_Users_tp_Documents_GitHub_WatchFace_tacticalSolstice_source_solsticeArcs_mc_171_36_stop:
+    }
+}
+[ @file = "/Users/tp/Documents/GitHub/WatchFace-tacticalSolstice/source/solsticeArcs.mc"; @line = 1; ]
+<init> {
+}
